@@ -1,0 +1,152 @@
+:root {
+    --hue: 210;
+    --first-color: hsl(var(--hue), 100%, 70%);
+    --first-color-alt: hsl(var(--hue), 56%, 35%);
+    --title-color: hsl(228, 8%, 95%);
+    --text-color: hsl(228, 8%, 65%);
+    --body-color: hsl(228, 15%, 20%);
+    --container-color: hsl(228, 15%, 15%);
+    --body-font: "Poppins", sans-serif;
+
+    --biggest-font-size: 2rem;
+    --bigger-font-size: 1.25rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+    font-family: var(--body-font);
+}
+
+.nav {
+    background-color: transparent;
+    position: fixed;
+}
+
+.nav::after {
+    content: '';
+    height: 5rem;
+    background-color: hsla(0, 0%, 10%, .3);
+    position: absolute;
+    width: 100%;
+    backdrop-filter: blur(24px);
+    top: 0;
+    z-index: -1;
+}
+
+.first-color {
+    color: hsl(var(--hue), 100%, 70%);
+}
+
+.container {
+    max-width: 1120px;
+    margin: auto;
+}
+
+.subnav::after {
+    content: '';
+    height: 100%;
+    background-color: hsla(0, 0%, 10%, .3);
+    position: absolute;
+    width: 100%;
+    backdrop-filter: blur(24px);
+    left: 0;
+    z-index: -1;
+    top: 0
+}
+
+.container nav a:hover {
+    color: var(--first-color);
+    transition: color 0.3s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.home__description {
+    margin-block: 1rem 1.5rem;
+}
+
+.button {
+    border-radius: .5rem;
+    display: inline-block;
+    background-color: var(--first-color);
+    padding: 1rem 1.75rem;
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    transition: box-shadow .4s;
+}
+
+.clip-hexagon {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.clip-img-hexagon {
+    clip-path: polygon(50% 0%,
+            93% 25%,
+            93% 75%,
+            50% 100%,
+            7% 75%,
+            7% 25%);
+    border-radius: 80px;
+}
+
+.heroImg {
+    fill: var(--first-color);
+    filter: drop-shadow(0 12px 12px hsla(var(--hue), 100%, 40%, .3));
+}
+
+.home__img {
+    width: 800px;
+    transform: translateX(-6rem) translateY(-1rem);
+}
+.projects__card{
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.projects__card>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.projects__card:hover .projectHover{
+    cursor: pointer;
+    bottom: 0;
+}
+
+.projectHover{
+    background: linear-gradient(180deg, hsla(0, 0%, 0%, 0) 0%, hsla(var(--hue), 70%, 40%, .8) 120%);
+    backdrop-filter: blur(4px);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom:-300px;
+    border-radius: 0.5rem;
+    transition: bottom .4s;
+}
