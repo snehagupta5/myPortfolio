@@ -35,7 +35,7 @@ const Projects = () => {
                     className='text-center w-full h-full cursor-pointer relative ProjectCard'>
                     <div className='projects__card'>
                         <img src={Project4} className='rounded-lg w-[350px] ProjectCard' />
-                        <div className=' projectHover flex justify-center items-center flex-col md:gap-4 gap-2 font-medium'>
+                        <div className=' projectHover flex justify-center items-center flex-col md:gap-4 gap-1 font-medium'>
                             <h3>thejoru.com</h3>
                             <h2 className='text-bigger'>E-commerce Event Service Website</h2>
                             <a href='https://thejoru.com' target="_blank">View Demo<i class="ri-external-link-line"></i></a>
@@ -54,7 +54,7 @@ const Projects = () => {
                     className='text-center w-full h-full cursor-pointer relative ProjectCard'>
                     <div className='projects__card'>
                         <img src={Project2} className='rounded-lg w-[350px] ProjectCard' />
-                        <div className=' projectHover flex justify-center items-center flex-col md:gap-4 gap-2 font-medium'>
+                        <div className=' projectHover flex justify-center items-center flex-col md:gap-4 gap-1 font-medium'>
                             <h3>Ging</h3>
                             <h2 className='text-bigger'>Fine-dining resturant</h2>
                             <a href='https://snehagupta5.github.io/gingRestaurant/' target="_blank">View Demo<i class="ri-external-link-line"></i></a>
@@ -72,7 +72,7 @@ const Projects = () => {
                     className='text-center w-full h-full cursor-pointer relative ProjectCard'>
                     <div className='projects__card'>
                         <img src={Project1} className='rounded-lg w-[350px] ProjectCard' />
-                        <div className=' projectHover flex justify-center items-center flex-col md:gap-4 gap-2 font-medium'>
+                        <div className=' projectHover flex justify-center items-center flex-col md:gap-4 gap-1 font-medium'>
                             <h3>Savari</h3>
                             <h2 className='text-bigger'>Rapido website</h2>
                             <a href='https://snehagupta5.github.io/savari.github.io/' target="_blank">View Demo<i class="ri-external-link-line"></i></a>
@@ -96,7 +96,7 @@ const Projects = () => {
                     className='text-center w-full h-full cursor-pointer relative ProjectCard'>
                     <div className='projects__card'>
                         <img src={Project5} className='rounded-lg w-[350px] ProjectCard' />
-                        <div className=' projectHover flex justify-center items-center flex-col md:gap-4 gap-2 font-medium'>
+                        <div className=' projectHover flex justify-center items-center flex-col md:gap-4 gap-1 font-medium'>
                             <h3>About Github</h3>
                             <h2 className='text-bigger'>github Real user Search</h2>
                             <a href='https://github-user-search-pink-two.vercel.app/' target="_blank">View Demo<i class="ri-external-link-line"></i></a>
@@ -115,7 +115,7 @@ const Projects = () => {
                     className='text-center w-full h-full cursor-pointer relative ProjectCard'>
                     <div className='projects__card'>
                         <img src={Project6} className='rounded-lg w-[350px] ProjectCard' />
-                        <div className=' projectHover flex justify-center items-center flex-col md:gap-4 gap-2 font-medium'>
+                        <div className=' projectHover flex justify-center items-center flex-col md:gap-4 gap-1 font-medium'>
                             <h3>Hotel Booking</h3>
                             <h2 className='text-bigger'>book hotel Website</h2>
                             <a href='https://github.com/snehagupta5/hotelBooking' target="_blank">View Demo<i class="ri-external-link-line"></i></a>
@@ -134,7 +134,7 @@ const Projects = () => {
                     className='text-center w-full h-full cursor-pointer relative ProjectCard'>
                     <div className='projects__card'>
                         <img src={Project3} className='rounded-lg w-[350px] ProjectCard' />
-                        <div className=' projectHover flex justify-center items-center flex-col md:gap-4 gap-2 font-medium'>
+                        <div className=' projectHover flex justify-center items-center flex-col md:gap-4 gap-1 font-medium'>
                             <h3>joru App</h3>
                             <h2 className='text-bigger'>E-commerce Android App</h2>
                             <a href='https://play.google.com/store/apps/details?id=com.joru.customer&hl=en_IN' target="_blank">View Demo<i class="ri-external-link-line"></i></a>
