@@ -5,7 +5,7 @@ const Footer = () => {
     const icons = [
         { icon: "ri-github-fill", link: "https://github.com/snehagupta5" },
         { icon: "ri-linkedin-box-fill", link: "https://www.linkedin.com/in/snehagupta9433771a7/" },
-        { icon: "ri-code-s-slash-line", link: "https://leetcode.com/problemset/" },
+        { icon: "ri-code-s-slash-line", link: "https://leetcode.com/u/sneha_guptaa/" },
     ];
     return (
         <div className='md:h-[40vh] w-full py-[5rem] px-[2rem] md:p-0 bg-container_colour'>
